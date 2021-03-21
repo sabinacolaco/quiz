@@ -1,0 +1,24 @@
+.container-full{margin:0 auto;width:100%;}
+.header{padding:20px;text-align:center;background:#1abc9c;color:white;font-size:30px;}
+.footer{left:0;bottom:0;width:100%;padding-top:20px;text-align:center;}
+.online-test-box > .panel-primary{border-color:#1abc9c;}
+.online-test-box > .panel{border-radius:0px !important;margin-top:10px;border:none !important;}
+.online-test-box > .panel-primary > .panel-heading{color:#fff;background-color:#1abc9c;border-color:#1abc9c;}
+.online-test-box > .panel-primary > .panel-heading{padding:10px 15px;border-top-left-radius:0px !important;border-top-right-radius:0px !important;border-bottom:none;}
+.panel-footer{padding:10px 15px;background-color:#f5f5f5;border-top:1px solid #ddd;border-bottom-right-radius:0px;border-bottom-left-radius:0px;font-size:15px;text-align:right;}
+.online-test-box > .panel-primary > a{color:#1abc9c;text-decoration:none;}
+.error-messages{color:red;font-size:12px;text-align:center;}
+.wronganswer{background-color:#f8d7da !important;}
+.radio{font-size:13px;padding:3px;border:1px solid #e3e3e3;border-radius:4px;}
+.correctanswer{background-color:#d4edda !important;}
+.unanswered{background-color:#F2F4F4 !important;}
+.wrongdiv{border-color:red !important;}
+.modal-footer{text-align:center !important;}
+.option-border > label{position:relative;display:block;margin-top:10px;margin-bottom:10px;font-size:13px;padding:5px;border:1px solid #e3e3e3;border-radius:4px;font-weight:400;cursor:default;}
+.well{background-color:#FFF !important;}
+.radiocontainer:hover{background-color:#E8F8F5;}
+.option-border > label.radiocontainer:hover{background-color:transparent;}
+.radiocontainer{display:block;cursor:pointer;}
+.checkedlabel{background-color:#ddd;}
+.radio label{padding-top:1px !important;padding-left:25px !important;padding-right:10px !important;}
+.glyphicon{font-size:15px;}

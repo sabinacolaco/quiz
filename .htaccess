@@ -1,0 +1,13 @@
+<IfModule mod_rewrite.c>
+Options +FollowSymLinks
+RewriteEngine On
+RewriteBase /quiz
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^$ index.php [QSA,NC,L]
+RewriteRule ^single-page$ singlepage.php [QSA,NC,L]
+RewriteRule ^multi-page$ multipage.php [QSA,NC,L]
+RewriteRule ^php-test-result$ result.php [QSA,NC,L]
+</IfModule>
+
+
